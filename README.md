@@ -2,8 +2,6 @@ Objective: Build a CodePen.io app that is functionally similar to this: https://
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
 
-User Story #3: I can see a form with id="survey-form".
-
 User Story #4: Inside the form element, I am required to enter my name in a field with id="name".
 
 User Story #5: Inside the form element, I am required to enter an email in a field with id="email".
@@ -40,3 +38,5 @@ Completed User Stories:
 User Story #1: I can see a title with id="title" in H1 sized text.
 
 User Story #2: I can see a short explanation with id="description" in P sized text.
+
+User Story #3: I can see a form with id="survey-form".
