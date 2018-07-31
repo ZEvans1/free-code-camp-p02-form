@@ -8,8 +8,6 @@ User Story #8: If I enter non-numbers in the number input, I will see an HTML5 v
 
 User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.
 
-User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
-
 You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
 Once you're done, submit the URL to your working project with all its tests passing.
 Remember to use the Read-Search-Ask method if you get stuck.
@@ -40,3 +38,5 @@ User Story #13: Inside the form element, I can select a field from one or more g
 User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
 
 User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
+
+User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
