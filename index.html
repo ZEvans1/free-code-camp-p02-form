@@ -1,37 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Page Title</title>
+  <title>Music Survey</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <h1 id="title">Form Title</h1>
-  <p id="description">Form description</p>
+  <h1 id="title">Music Survey</h1>
+  <p id="description">This is a survery for how many and what types of instruments people play.</p>
   <form id="survey-form">
-    <label for="name-label">Name</label>
-    <input id="name" type="text" placeholder="John" required>
-    <label for="email-label">Email</label>
-    <input id="email" type="email" placeholder="john@email.com" required>
-    <label for="number-label">Number</label>
-    <input id="number" type="number" min="1" max="10" placeholder="1">
-    <select id="dropdown">
-      <option>Value 1</option>
-      <option>Value 2</option>
-      <option>Value 3</option>
-    </select>
     <div>
-      <input type="radio" name="group1" value="g1v1">
-      <input type="radio" name="group1" value="g1v2">
-      <input type="radio" name="group1" value="g1v3">
+      <label for="name-label">Name</label>
+      <input id="name" type="text" placeholder="John" required>
     </div>
     <div>
-      <input type="radio" name="group2" value="g2v1">
-      <input type="radio" name="group2" value="g2v2">
-      <input type="radio" name="group2" value="g2v3">
+      <label for="email-label">Email</label>
+      <input id="email" type="email" placeholder="john@email.com" required>
     </div>
     <div>
-      <input type="checkbox" name="choice1" value="val1">
-      <input type="checkbox" name="choice2" value="val2">
-      <input type="checkbox" name="choice3" value="val3">
+      <label for="number-label">Number of Instruments</label>
+      <input id="number" type="number" min="1" max="100" placeholder="1">
+    </div>
+    <div>
+      <p>How competent would you describe yourself as a musician?</p>
+      <select id="dropdown">
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+        <option>Master</option>
+      </select>
+    </div>
+    <div>
+      <p>What is your level of involvement as a musician?</p>
+      <label for="hobbyist">
+        <input id="hobbyist" type="radio" name="commitment" value="1">Hobbyist
+      </label>
+      <label for="part-time">
+        <input id="part-time" type="radio" name="commitment" value="2">Part-time
+      </label>
+      <label for="professional">
+        <input id="professional" type="radio" name="commitment" value="3">Professional
+      </label>
+    </div>
+    <div>
+      <p>How many people do you play with?</p>
+      <label for="solo">
+        <input id="solo" type="radio" name="community" value="1">Solo
+      </label>
+      <label for="band">
+        <input id="band" type="radio" name="community" value="2">Band
+      </label>
+      <label for="groups">
+        <input id="groups" type="radio" name="community" value="3">Several Groups
+      </label>
+    </div>
+    <div>
+      <label for="guitar">
+        <input id="guitar" type="checkbox" name="instruments" value="1">guitar
+      </label>
+      <label for="bass">
+        <input id="bass" type="checkbox" name="instruments" value="2">bass
+      </label>
+      <label for="drums">
+        <input id="drums" type="checkbox" name="instruments" value="3">drums
+      </label>
     </div>
     <textarea>
 
